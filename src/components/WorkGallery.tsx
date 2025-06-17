@@ -19,43 +19,64 @@ const WorkGallery = () => {
       id: 1,
       title: "Complete Roof Replacement",
       category: "new-roof",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Full tile replacement with new felt and battens"
+      image: "/lovable-uploads/3c43f401-906e-4990-8b27-81b33757dc83.png",
+      description: "Full tile replacement with quality materials and professional installation"
     },
     {
       id: 2,
-      title: "Emergency Leak Repair",
-      category: "repair", 
-      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Quick response leak repair and tile replacement"
+      title: "Slate Roof Installation", 
+      category: "new-roof",
+      image: "/lovable-uploads/7495bb1b-aae3-4524-9a82-bf820f3c3eef.png",
+      description: "Professional slate roofing with precise craftsmanship"
     },
     {
       id: 3,
-      title: "Commercial Flat Roof",
+      title: "Flat Roof Construction",
       category: "flat-roof",
-      image: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "EPDM rubber roofing installation for office building"
+      image: "/lovable-uploads/0a13b8d0-dbb9-4acd-81be-7b233428163e.png",
+      description: "Modern flat roofing solution with superior waterproofing"
     },
     {
       id: 4,
-      title: "Guttering System Install",
-      category: "guttering",
-      image: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Complete PVC guttering and fascia replacement"
+      title: "Roof Repair & Maintenance",
+      category: "repair",
+      image: "/lovable-uploads/5a5ca086-fef5-4966-86bb-563da8c21f43.png",
+      description: "Expert roof repairs and maintenance services"
     },
     {
       id: 5,
-      title: "Victorian House Restoration",
-      category: "new-roof",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Heritage slate roof restoration with modern insulation"
+      title: "Insulation Installation",
+      category: "repair",
+      image: "/lovable-uploads/06a1a1ce-7b65-443a-a33b-e03a7cca5c95.png",
+      description: "Professional roof insulation for energy efficiency"
     },
     {
       id: 6,
-      title: "Storm Damage Repair",
+      title: "Pitched Roof Restoration",
+      category: "new-roof",
+      image: "/lovable-uploads/2bd6a32f-04a3-4926-842e-a3ca35d6e000.png",
+      description: "Complete pitched roof restoration with modern materials"
+    },
+    {
+      id: 7,
+      title: "Roof Maintenance Project",
       category: "repair",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-      description: "Insurance work following storm damage"
+      image: "/lovable-uploads/ecc3c2b0-d7f9-4ae5-916b-b003ba711a3a.png",
+      description: "Regular maintenance and inspection services"
+    },
+    {
+      id: 8,
+      title: "Tile Roofing Installation",
+      category: "new-roof",
+      image: "/lovable-uploads/daadab30-29ac-49db-b071-4085d12b7374.png",
+      description: "High-quality tile roofing with excellent durability"
+    },
+    {
+      id: 9,
+      title: "Commercial Roofing Project",
+      category: "new-roof",
+      image: "/lovable-uploads/5e2864cd-ef76-45f7-b8ac-f52181c2393f.png",
+      description: "Professional commercial roofing with specialized equipment"
     }
   ];
 
