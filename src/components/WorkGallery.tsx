@@ -85,27 +85,29 @@ const WorkGallery = () => {
     : projects.filter(project => project.category === activeFilter);
 
   return (
-    <section id="work" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
+    <section id="work" className="py-24 bg-gradient-to-br from-gray-50 to-white">
+      <div className="container mx-auto px-4 max-w-7xl">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl md:text-6xl font-bold text-secondary mb-6 tracking-tight">
             Our Work
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            See examples of our quality roofing work across residential and commercial projects.
+          <div className="w-24 h-1 bg-primary mx-auto mb-6 rounded-full"></div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
+            See examples of our quality roofing work across residential and commercial projects. 
+            Every project showcases our commitment to excellence and attention to detail.
           </p>
 
-          {/* Filter Buttons */}
-          <div className="flex flex-wrap justify-center gap-2 mb-8">
+          {/* Enhanced Filter Buttons */}
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
             {filters.map((filter) => (
               <Button
                 key={filter.id}
                 variant={activeFilter === filter.id ? "default" : "outline"}
                 onClick={() => setActiveFilter(filter.id)}
-                className={`${
+                className={`px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 ${
                   activeFilter === filter.id 
-                    ? 'bg-primary hover:bg-orange-600 text-white' 
-                    : 'border-primary text-primary hover:bg-primary hover:text-white'
+                    ? 'bg-primary hover:bg-orange-600 text-white shadow-lg transform hover:scale-105' 
+                    : 'border-2 border-primary text-primary hover:bg-primary hover:text-white hover:shadow-md hover:transform hover:scale-105'
                 }`}
               >
                 {filter.label}
@@ -114,26 +116,43 @@ const WorkGallery = () => {
           </div>
         </div>
 
-        {/* Project Grid */}
+        {/* Enhanced Project Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
-            <Card key={project.id} className="group overflow-hidden hover:shadow-xl transition-all duration-300">
+            <Card key={project.id} className="group overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 bg-white border-0 shadow-md">
               <div className="relative overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+                  className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300"></div>
                 
-                <div className="absolute bottom-4 left-4 right-4 text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
-                  <p className="text-sm text-gray-200">{project.description}</p>
+                {/* Enhanced overlay content */}
+                <div className="absolute inset-0 flex flex-col justify-end p-6">
+                  <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                    <h3 className="text-xl font-bold text-white mb-2 leading-tight">{project.title}</h3>
+                    <p className="text-sm text-gray-200 leading-relaxed opacity-90">{project.description}</p>
+                  </div>
+                  
+                  {/* Service category badge */}
+                  <div className="absolute top-4 right-4">
+                    <span className="bg-primary/90 text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
+                      {filters.find(f => f.id === project.category)?.label}
+                    </span>
+                  </div>
                 </div>
               </div>
             </Card>
           ))}
+        </div>
+
+        {/* Call to action */}
+        <div className="text-center mt-16">
+          <p className="text-lg text-gray-600 mb-6">Ready to start your roofing project?</p>
+          <Button className="bg-primary hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+            Get Your Free Quote
+          </Button>
         </div>
       </div>
     </section>
