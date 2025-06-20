@@ -25,7 +25,6 @@ const Hero = () => {
           muted
           playsInline
           controls={false}
-          poster="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80"
           className="w-full h-full object-cover"
           src="/hero-background.mp4"
         >
