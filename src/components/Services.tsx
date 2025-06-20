@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -7,7 +6,7 @@ const Services = () => {
     {
       title: "New Roof Installation",
       description: "Complete roof installations using high-quality materials with full warranty coverage.",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/uploads/06a1a1ce-7b65-443a-a33b-e03a7cca5c95.png",
       features: [
         "High-quality materials from trusted suppliers",
         "Skilled craftmanship with attention to detail",
@@ -18,7 +17,7 @@ const Services = () => {
     {
       title: "Roof Repairs",
       description: "Expert roof repairs to fix leaks, damaged tiles, and structural issues quickly and effectively.",
-      image: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/uploads/2bd6a32f-04a3-4926-842e-a3ca35d6e000.png",
       features: [
         "Emergency leak repairs",
         "Tile and slate replacement", 
@@ -29,7 +28,7 @@ const Services = () => {
     {
       title: "Flat Roofing",
       description: "Specialized flat roofing solutions for commercial and residential properties.",
-      image: "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/uploads/7495bb1b-aae3-4524-9a82-bf820f3c3eef.png",
       features: [
         "EPDM rubber roofing",
         "Built-up felt systems",
@@ -40,7 +39,7 @@ const Services = () => {
     {
       title: "Guttering & Fascias",
       description: "Complete guttering systems installation and maintenance to protect your property.",
-      image: "https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "/uploads/daadab30-29ac-49db-b071-4085d12b7374.png",
       features: [
         "PVC and aluminum guttering",
         "Fascia board replacement",
