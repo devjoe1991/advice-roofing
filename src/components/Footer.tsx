@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Phone } from 'lucide-react';
 
@@ -19,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-gray-300 mb-4">
-              Professional roofing services across Derby and surrounding areas. 
+              Professional roofing services across London and surrounding areas. 
               Quality craftsmanship with full insurance and guarantees.
             </p>
             <div className="flex items-center space-x-2 text-primary">
@@ -46,7 +45,7 @@ const Footer = () => {
             <div className="text-gray-300 space-y-2">
               <p><strong>Phone:</strong> 01332 358958</p>
               <p><strong>Email:</strong> info@adviceroofingandbuildingltd.com</p>
-              <p><strong>Coverage Area:</strong> Derby & Surrounding Areas</p>
+              <p><strong>Coverage Area:</strong> London & Surrounding Areas</p>
               <p><strong>Hours:</strong> Monday - Saturday, 8am - 6pm</p>
               <p className="text-primary font-semibold">24/7 Emergency Service Available</p>
             </div>
