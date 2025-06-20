@@ -1,18 +1,24 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Phone, ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen bg-gradient-to-br from-gray-900 to-gray-700 flex items-center">
-      {/* Background Image Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
-        style={{
-          backgroundImage: 'url("https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80")'
-        }}
-      ></div>
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
+      {/* Background Video */}
+      <div className="absolute inset-0 z-0">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+          src="/hero-background.mp4"
+        >
+          Your browser does not support the video tag.
+        </video>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+      </div>
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-white">
