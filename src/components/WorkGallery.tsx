@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -19,63 +18,63 @@ const WorkGallery = () => {
       id: 1,
       title: "Complete Roof Replacement",
       category: "new-roof",
-      image: "/lovable-uploads/3c43f401-906e-4990-8b27-81b33757dc83.png",
+      image: "/uploads/3c43f401-906e-4990-8b27-81b33757dc83.png",
       description: "Full tile replacement with quality materials and professional installation"
     },
     {
       id: 2,
       title: "Slate Roof Installation", 
       category: "new-roof",
-      image: "/lovable-uploads/7495bb1b-aae3-4524-9a82-bf820f3c3eef.png",
+      image: "/uploads/7495bb1b-aae3-4524-9a82-bf820f3c3eef.png",
       description: "Professional slate roofing with precise craftsmanship"
     },
     {
       id: 3,
       title: "Flat Roof Construction",
       category: "flat-roof",
-      image: "/lovable-uploads/0a13b8d0-dbb9-4acd-81be-7b233428163e.png",
+      image: "/uploads/0a13b8d0-dbb9-4acd-81be-7b233428163e.png",
       description: "Modern flat roofing solution with superior waterproofing"
     },
     {
       id: 4,
       title: "Roof Repair & Maintenance",
       category: "repair",
-      image: "/lovable-uploads/5a5ca086-fef5-4966-86bb-563da8c21f43.png",
+      image: "/uploads/5a5ca086-fef5-4966-86bb-563da8c21f43.png",
       description: "Expert roof repairs and maintenance services"
     },
     {
       id: 5,
       title: "Insulation Installation",
       category: "repair",
-      image: "/lovable-uploads/06a1a1ce-7b65-443a-a33b-e03a7cca5c95.png",
+      image: "/uploads/06a1a1ce-7b65-443a-a33b-e03a7cca5c95.png",
       description: "Professional roof insulation for energy efficiency"
     },
     {
       id: 6,
       title: "Pitched Roof Restoration",
       category: "new-roof",
-      image: "/lovable-uploads/2bd6a32f-04a3-4926-842e-a3ca35d6e000.png",
+      image: "/uploads/2bd6a32f-04a3-4926-842e-a3ca35d6e000.png",
       description: "Complete pitched roof restoration with modern materials"
     },
     {
       id: 7,
       title: "Roof Maintenance Project",
       category: "repair",
-      image: "/lovable-uploads/ecc3c2b0-d7f9-4ae5-916b-b003ba711a3a.png",
+      image: "/uploads/ecc3c2b0-d7f9-4ae5-916b-b003ba711a3a.png",
       description: "Regular maintenance and inspection services"
     },
     {
       id: 8,
       title: "Tile Roofing Installation",
       category: "new-roof",
-      image: "/lovable-uploads/daadab30-29ac-49db-b071-4085d12b7374.png",
+      image: "/uploads/daadab30-29ac-49db-b071-4085d12b7374.png",
       description: "High-quality tile roofing with excellent durability"
     },
     {
       id: 9,
       title: "Commercial Roofing Project",
       category: "new-roof",
-      image: "/lovable-uploads/5e2864cd-ef76-45f7-b8ac-f52181c2393f.png",
+      image: "/uploads/5e2864cd-ef76-45f7-b8ac-f52181c2393f.png",
       description: "Professional commercial roofing with specialized equipment"
     }
   ];
